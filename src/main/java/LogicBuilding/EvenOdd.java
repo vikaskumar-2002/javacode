@@ -11,7 +11,8 @@ public class EvenOdd {
         this.num = num;
     }
 
-    public void EvenOdd() {
+    public void EvenOdd(int n1) {
+        this.num = n1;
         System.out.println(num%2);
         if (num % 2 == 0) {
             System.out.println("Even");

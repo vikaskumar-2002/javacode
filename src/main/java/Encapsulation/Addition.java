@@ -1,9 +1,9 @@
 package Encapsulation;
 
 public class Addition {
-    private int num1;
-    private int num2;
-    private int sum;
+   private int num1;
+   private int num2;
+   private int sum;
 
     public int getNum1() {
         return num1;
@@ -28,10 +28,13 @@ public class Addition {
     public void setSum(int sum) {
         this.sum = sum;
     }
-    public void sum (int a , int b){
+    public void sum (int a,int b){
         this.num1 = a;
         this.num2 = b;
         this.sum = num1 + num2;
         System.out.println(sum);
     }
 }
+
+
+
